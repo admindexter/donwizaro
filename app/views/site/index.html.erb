@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title><%= h(yield(:title) || "Untitled") %></title>
+  <%= stylesheet_link_tag 'site' %>
+  <%= yield(:head) %>
+</head>
+
+<body>
+
+<div id="container">
+
+  <div id="header">
+  <!-- end #header --></div>
+
+  <div id="mainContent">
+
+    <div id="navigator_holder">
+
+      <div id="navigator">
+
+        <span class="button"><%= link_to_unless_current 'Home', home_path %>
+        <!-- end .button --></span>
+        <span class="button"><%= link_to_unless_current 'News', presses_path %>
+        <!-- end .button --></span>
+        <span class="button"><%= link_to_unless_current 'Don Wizaro', biography_path %>
+        <!-- end .button --></span>
+        <span class="button"><%= link_to_unless_current 'Tour + Events', tour_path %>
+        <!-- end .button --></span>
+        <span class="button"><%= link_to_unless_current 'Media', media_path %>
+        <!-- end .button --></span>
+        <span class="button"><%= link_to_unless_current 'Community', community_path %>
+        <!-- end .button --></span>
+        <span id="button_138"><%= link_to_unless_current 'Shop', shop_path %>
+        <!-- end #button_138 --></span>
+
+      <!-- end #navigator --></div>
+
+    <!-- end #navigator_holder --></div>
+
+    <div id="content_community">
+    <!-- end #content_community --></div>
+
+    <div id="content_span_gap1">
+    <!-- end #content_span_gap1 --></div>
+
+    <div id="content_promoted_single">
+    <!-- end #content_promoted_single --></div>
+
+    <div id="content_span_gap2">
+    <!-- end #content_span_gap2 --></div>
+
+    <div id="content_bars">
+
+      <div id="content_bars_holder">
+
+        <span id="content_bars_news">
+        <!-- end #content_bars_news --></span>
+
+        <span class="content_bars_gap">
+        <!-- end .content_bars_gap --></span>
+
+        <span id="content_bars_community">
+        <!-- end #content_bars_community --></span>
+
+        <span class="content_bars_gap">
+        <!-- end .content_bars_gap --></span>
+
+        <span id="content_bars_media">
+        <!-- end #content_bars_media --></span>
+
+        <span class="content_bars_gap">
+        <!-- end .content_bars_gap --></span>
+
+        <span id="content_bars_events">
+        <!-- end #content_bars_events --></span>
+
+      <!-- end #content_bars_holder --></div>
+
+    <!-- end #content_bars --></div>
+
+    <div id="content_span_gap3">
+    <!-- end #content_span_gap3 --></div>
+
+    <div id="content_gallery_slides">
+
+        <span id="content_gallery_slides_left_button">
+        <!-- end #content_gallery_slides_left_button --></span>
+
+        <span id="content_gallery_slides_bg">
+
+          <span class="picture">
+          <!-- end .picture --></span>
+
+          <span class="gallery_slides_gap">
+          <!-- end .gallery_slides_gap --></span>
+
+          <span class="picture">
+          <!-- end .picture --></span>
+
+          <span class="gallery_slides_gap">
+          <!-- end .gallery_slides_gap --></span>
+
+          <span class="picture">
+          <!-- end .picture --></span>
+
+          <span class="gallery_slides_gap">
+          <!-- end .gallery_slides_gap --></span>
+
+          <span class="picture">
+          <!-- end .picture --></span>
+
+          <span class="gallery_slides_gap">
+          <!-- end .gallery_slides_gap --></span>
+
+          <span class="picture">
+          <!-- end .picture --></span>
+
+          <span class="gallery_slides_gap">
+          <!-- end .gallery_slides_gap --></span>
+
+          <span class="picture">
+          <!-- end .picture --></span>
+
+        <!-- end #content_gallery_slides_bg --></span>
+
+        <span id="content_gallery_slides_right_button">
+        <!-- end #content_gallery_slides_right_button --></span>
+
+    <!-- end #content_gallery_slides --></div>
+
+    <div id="content_span_gap4">
+    <!-- end #content_span_gap4 --></div>
+
+	<!-- end #mainContent --></div>
+
+<!-- end #container --></div>
+
+<div id="footer">
+<!-- end #footer --></div>
+
+</body>
+
+</html>
+
