@@ -31,7 +31,7 @@ rescue LoadError
   end
 end
 
-gem 'rack', '~> 1.0.0'
+gem 'rack', '>= 1.0.1'
 require 'rack'
 
 module ActionController
@@ -109,3 +109,4 @@ autoload :Mime, 'action_controller/mime_type'
 autoload :HTML, 'action_controller/vendor/html-scanner'
 
 require 'action_view'
+
