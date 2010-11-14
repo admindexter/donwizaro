@@ -1,0 +1,170 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font: 									100% Verdana, Arial, Helvetica, sans-serif;
+	background:							    #000 url(../images/background_artiste.jpg) no-repeat 540px 320px;
+	margin:									0;
+	padding:								0;
+	text-align:							    center;
+	color:									#000000;
+}
+
+#container {
+	width:									984px;
+	margin:									0 auto;
+	text-align:							    left;
+	background:							    url(../images/header_page_layout.jpg) no-repeat center top;
+}
+
+#header {
+	width:									984px;
+	height:									140px;
+}
+
+#mainContent {
+    clear:                                  left;
+	width:									984px;
+}
+
+#navigation {
+	width:									984px;
+	height:									36px;
+	background:							    url(../images/navigation.jpg) no-repeat center top;
+}
+
+#content_community {
+	width:									984px;
+	height:									120px;
+	background:							    url(../images/content_community.jpg) no-repeat center top;
+}
+
+#content_blog_holder {
+	width:									700px;
+	height:									848px;
+}
+
+/* Navigation Styles */
+
+#navigator_holder {
+	width: 						            1000px;
+	height: 					            36px;
+	margin: 					            0 auto;
+	padding-right: 				            20px;
+}
+
+#navigator {
+	background-color:			            #000;
+	height: 					            36px;
+	color:						            white;
+}
+
+.button {
+    font-family:                            Helvetica, Arial, sans-serif;
+    font-size:                              10px;
+    font-style:                             normal;
+    font-weight:                            bold;
+    text-transform:                         uppercase;
+    letter-spacing:                         1px;
+	background:			 		            url(../images/navigation_highlight_141.jpg) repeat-x;
+	float: 						            left;
+	height: 					            36px;
+	width: 						            141px;
+	margin: 					            0;
+	padding: 					            0;
+	white-space:		 		            nowrap;
+	line-height: 				            36px;
+	text-align:					            center;
+}
+
+.button a {
+	text-decoration: 			            none;
+	display:					            block;
+	background: 				            url(../images/navigation_normal_141.jpg) repeat-x;
+	color:						            #FFFFFF;
+}
+
+.button a:visited {
+	text-decoration: 			            none;
+	display:					            block;
+	color:						            #FFF;
+}
+
+.button a:hover {
+	background: 				            url(../images/navigation_highlight_141.jpg) repeat-x;
+	text-decoration: 			            none;
+	display:					            block;
+	color:						            white;
+}
+
+#button_138 {
+    font-family:                            Helvetica, Arial, sans-serif;
+    font-size:                              10px;
+    font-style:                             normal;
+    font-weight:                            bold;
+    text-transform:                         uppercase;
+    letter-spacing:                         1px;
+	background:			 		            url(../images/navigation_highlight_138.jpg) no-repeat;
+	float: 						            left;
+	height: 					            36px;
+	width: 						            138px;
+	margin: 					            0;
+	padding: 					            0;
+	white-space:		 		            nowrap;
+	line-height: 				            36px;
+	text-align:					            center;
+}
+
+#button_138 a {
+	text-decoration: 			            none;
+	display:					            block;
+	background: 				            url(../images/navigation_normal_138.jpg) repeat-x;
+	color:						            #FFFFFF;
+}
+
+#button_138 a:visited {
+	text-decoration: 			            none;
+	display:					            block;
+	color:						            #FFF;
+}
+
+#button_138 a:hover {
+	background: 				            url(../images/navigation_highlight_138.jpg) repeat-x;
+	text-decoration: 			            none;
+	display:					            block;
+	color:						            white;
+}
+
+
+/* Blog Styles */
+
+.content_blog_gap {
+    width:                                  700px;
+    height:                                 20px;
+}
+
+.content_blog {
+    width:                                  700px;
+    height:                                 220px;
+    background:                             #282627 url(../images/biography_content_background_top.jpg) no-repeat center top;
+}
+
+.inside_content_blog {
+    width:                                  700px;
+    height:                                 220px;
+    background:                             url(../images/biography_content_background_bottom.jpg) no-repeat center bottom;
+}
+
+#blog_navigation {
+    width:                                  700px;
+    height:                                 50px;
+}
+
+
+/* Footer Styles */
+
+#footer {
+	height:									81px;
+	background:							    url(../images/footer_gradient.jpg) repeat-x;
+}
+

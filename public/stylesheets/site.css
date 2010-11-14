@@ -22,7 +22,58 @@ body {
 	background:							    url(../images/header.jpg) no-repeat center top;
 }
 
+#header_bottom_div {
+    width:                                  984px;
+    height:                                 200px;
+    clear:                                  left;
+}
+
+#reverb_span {
+	width:									262px;
+	height:									220px;
+	float:                                  left;
+}
+
+#space_after_reverb_span {
+	width:									722px;
+	height:									220px;
+}
+
+#reverb {
+	width:									262px;
+	height:									200px;
+	background:							    black;
+}
+
+#space_b4_reverb {
+	width:									262px;
+	height:									20px;
+}
+
+#space_b4_advert {
+    width:                                  984px;
+	height:									33px;
+}
+
+#advert {
+    width:                                  984px;
+    height:                                 100px;
+}
+
+#space_after_advert_span {
+    float:                                  left;
+    width:                                  80px;
+    height:                                 100px;
+}
+
+#advert_span {
+    float:                                  left;
+    width:                                  487px;
+    height:                                 100px;
+}
+
 #mainContent {
+    clear:                                  left;
 	width:									984px;
 }
 
@@ -166,96 +217,95 @@ body {
 }
 
 
-
 /* Navigation Styles */
 
 #navigator_holder {
-	width: 						1000px;
-	height: 					36px;
-	margin: 					0 auto;
-	padding-right: 				20px;
+	width: 						            1000px;
+	height: 					            36px;
+	margin: 					            0 auto;
+	padding-right: 				            20px;
 }
 
 #navigator {
-	background-color:			#000;
-	height: 					36px;
-	color:						white;
+	background-color:			            #000;
+	height: 					            36px;
+	color:						            white;
 }
 
 .button {
-    font-family:                Helvetica, Arial, sans-serif;
-    font-size:                  10px;
-    font-style:                 normal;
-    font-weight:                bold;
-    text-transform:             uppercase;
-    letter-spacing:             1px;
-	background:			 		url(../images/navigation_highlight_141.jpg) repeat-x;
-	float: 						left;
-	height: 					36px;
-	width: 						141px;
-	margin: 					0;
-	padding: 					0;
-	white-space:		 		nowrap;
-	line-height: 				36px;
-	text-align:					center;
+    font-family:                            Helvetica, Arial, sans-serif;
+    font-size:                              10px;
+    font-style:                             normal;
+    font-weight:                            bold;
+    text-transform:                         uppercase;
+    letter-spacing:                         1px;
+	background:			 		            url(../images/navigation_highlight_141.jpg) repeat-x;
+	float: 						            left;
+	height: 					            36px;
+	width: 						            141px;
+	margin: 					            0;
+	padding: 					            0;
+	white-space:		 		            nowrap;
+	line-height: 				            36px;
+	text-align:					            center;
 }
 
 .button a {
-	text-decoration: 			none;
-	display:					block;
-	background: 				url(../images/navigation_normal_141.jpg) repeat-x;
-	color:						#FFFFFF;
+	text-decoration: 			            none;
+	display:					            block;
+	background: 				            url(../images/navigation_normal_141.jpg) repeat-x;
+	color:						            #FFFFFF;
 }
 
 .button a:visited {
-	text-decoration: 			none;
-	display:					block;
-	color:						#FFF;
+	text-decoration: 			            none;
+	display:					            block;
+	color:						            #FFF;
 }
 
 .button a:hover {
-	background: 				url(../images/navigation_highlight_141.jpg) repeat-x;
-	text-decoration: 			none;
-	display:					block;
-	color:						white;
+	background: 				            url(../images/navigation_highlight_141.jpg) repeat-x;
+	text-decoration: 			            none;
+	display:					            block;
+	color:						            white;
 }
 
 #button_138 {
-    font-family:                Helvetica, Arial, sans-serif;
-    font-size:                  10px;
-    font-style:                 normal;
-    font-weight:                bold;
-    text-transform:             uppercase;
-    letter-spacing:             1px;
-	background:			 		url(../images/navigation_highlight_138.jpg) no-repeat;
-	float: 						left;
-	height: 					36px;
-	width: 						138px;
-	margin: 					0;
-	padding: 					0;
-	white-space:		 		nowrap;
-	line-height: 				36px;
-	text-align:					center;
+    font-family:                            Helvetica, Arial, sans-serif;
+    font-size:                              10px;
+    font-style:                             normal;
+    font-weight:                            bold;
+    text-transform:                         uppercase;
+    letter-spacing:                         1px;
+	background:			 		            url(../images/navigation_highlight_138.jpg) no-repeat;
+	float: 						            left;
+	height: 					            36px;
+	width: 						            138px;
+	margin: 					            0;
+	padding: 					            0;
+	white-space:		 		            nowrap;
+	line-height: 				            36px;
+	text-align:					            center;
 }
 
 #button_138 a {
-	text-decoration: 			none;
-	display:					block;
-	background: 				url(../images/navigation_normal_138.jpg) repeat-x;
-	color:						#FFFFFF;
+	text-decoration: 			            none;
+	display:					            block;
+	background: 				            url(../images/navigation_normal_138.jpg) repeat-x;
+	color:						            #FFFFFF;
 }
 
 #button_138 a:visited {
-	text-decoration: 			none;
-	display:					block;
-	color:						#FFF;
+	text-decoration: 			            none;
+	display:					            block;
+	color:						            #FFF;
 }
 
 #button_138 a:hover {
-	background: 				url(../images/navigation_highlight_138.jpg) repeat-x;
-	text-decoration: 			none;
-	display:					block;
-	color:						white;
+	background: 				            url(../images/navigation_highlight_138.jpg) repeat-x;
+	text-decoration: 			            none;
+	display:					            block;
+	color:						            white;
 }
 
 
