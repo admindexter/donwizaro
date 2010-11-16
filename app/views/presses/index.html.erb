@@ -1,27 +1,86 @@
 <% title "Presses" %>
 
-<table>
-  <tr>
-    <th>Title</th>
-    <th>Location</th>
-    <th>Date Of Event</th>
-    <th>Emphasis</th>
-    <th>Author</th>
-    <th>Information</th>
-  </tr>
-  <% for press in @presses %>
-    <tr>
-      <td><%=h press.title %></td>
-      <td><%=h press.location %></td>
-      <td><%=h press.date_of_event %></td>
-      <td><%=h press.emphasis %></td>
-      <td><%=h press.author %></td>
-      <td><%=h press.information %></td>
-      <td><%= link_to "Show", press %></td>
-      <td><%= link_to "Edit", edit_press_path(press) %></td>
-      <td><%= link_to "Destroy", press, :confirm => 'Are you sure?', :method => :delete %></td>
-    </tr>
-  <% end %>
-</table>
+    <div id="content_blog_holder">
 
-<p><%= link_to "New Press", new_press_path %></p>
+      <% @presses.each do |press| %>
+
+        <div class="content_blog_gap">
+        <!-- end .content_blog_gap --></div>
+
+        <div class="content_blog">
+
+          <div class="inside_content_blog">
+
+            <span class="gap_b4_blog_frame">
+            <!-- end .gap_b4_blog_frame --></span>
+
+            <span class="blog_frame">
+
+              <div class="top_space_blog_frame">
+              <!-- end .top_space_blog_frame --></div>
+
+              <div class="space_blog_frame">
+              <!-- end .space_blog_frame --></div>
+
+            <!-- end .blog_frame --></span>
+
+            <span class="gap_b4_blog_frame">
+            <!-- end .gap_b4_blog_frame --></span>
+
+            <span class="blog_information">
+
+              <div class="blog_gap_b4_title">
+              <!-- end .blog_gap_b4_title --></div>
+
+              <div class="blog_title">
+
+                <%=h truncate(press.title.gsub(/<.*?>/,''), :length => 120) %>
+
+              <!-- end .blog_title --></div>
+
+              <div class="blog_gap_b4_title_1">
+              <!-- end .blog_gap_b4_title_1 --></div>
+
+              <div class="blog_content">
+
+                <%=h truncate(press.information.gsub(/<.*?>/,''), :length => 380) %>
+
+              <!-- end .blog_content --></div>
+
+              <div class="blog_button">
+
+                <span class="blog_button_normal">
+
+                  <%= link_to image_tag( "blog_button.jpg",  :mouseover => "/images/blog_button_highlight.jpg" ),
+                                                              press %>
+
+                <!-- end .blog_button_normal --></span>
+
+              <!-- end .blog_button --></div>
+
+            <!-- end .blog_information --></span>
+
+          <!-- end .inside_content_blog --></div>
+
+        <!-- end .content_blog --></div>
+
+      <% end %>
+
+      <div class="content_blog_gap">
+      <!-- end .content_blog_gap --></div>
+
+      <div class="content_blog_gap">
+      <!-- end .content_blog_gap --></div>
+
+      <div class="content_blog_gap">
+      <!-- end .content_blog_gap --></div>
+
+      <div id="blog_navigation">
+
+        <%= will_paginate @presses %>
+        </div><!-- end .pagination -->
+
+      <!-- end #blog_navigation --></div>
+
+    <!-- end #content_blog_holder --></div>
+

@@ -10,6 +10,10 @@ body {
 	color:									#000000;
 }
 
+a img {
+    border:                                 none;
+}
+
 #container {
 	width:									984px;
 	margin:									0 auto;
@@ -153,6 +157,79 @@ body {
     width:                                  700px;
     height:                                 220px;
     background:                             url(../images/biography_content_background_bottom.jpg) no-repeat center bottom;
+}
+
+.gap_b4_blog_frame {
+    height:                                 220px;
+    width:                                  10px;
+    float:                                  left;
+}
+
+.blog_frame {
+    height:                                 220px;
+    width:                                  218px;
+    float:                                  left;
+}
+
+.top_space_blog_frame {
+    width:                                  50px;
+    height:                                 12px;
+}
+
+.space_blog_frame {
+    width:                                  218px;
+    height:                                 220px;
+    background:                             url(../images/blog_frame.jpg) no-repeat;
+}
+
+.blog_information {
+    height:                                 220px;
+    width:                                  455px;
+    float:                                  left;
+}
+
+.blog_gap_b4_title {
+    width:                                  455px;
+    height:                                 15px;
+}
+
+.blog_gap_b4_title_1 {
+    width:                                  455px;
+    height:                                 8px;
+}
+
+.blog_title {
+    width:                                  455px;
+    height:                                 40px;
+    color:                                  #eebb00;
+    font-family:                            Georgia, serif;
+    font-size:                              18px;
+    font-style:                             italic;
+    font-weight:                            normal;
+    text-transform:                         normal;
+    letter-spacing:                         normal;
+    line-height:                            1.0em;
+}
+
+.blog_date {
+    width:                                  455px;
+    height:                                 20px;
+}
+
+.blog_content {
+    width:                                  455px;
+    height:                                 105px;
+    color:                                  #b8b8b8;
+    font-size:                              13px;
+}
+
+.blog_button {
+    width:                                  455px;
+    height:                                 46px;
+}
+
+.blog_button_normal {
+    float:                                  right;
 }
 
 #blog_navigation {

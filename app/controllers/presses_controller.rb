@@ -1,16 +1,19 @@
 class PressesController < ApplicationController
   def index
     @presses = Press.all
+
+    @presses = Press.paginate  :per_page => 3, :page => params[:page],
+    							             :order => 'created_at DESC'
   end
-  
+
   def show
     @press = Press.find(params[:id])
   end
-  
+
   def new
     @press = Press.new
   end
-  
+
   def create
     @press = Press.new(params[:press])
     if @press.save
@@ -20,11 +23,11 @@ class PressesController < ApplicationController
       render :action => 'new'
     end
   end
-  
+
   def edit
     @press = Press.find(params[:id])
   end
-  
+
   def update
     @press = Press.find(params[:id])
     if @press.update_attributes(params[:press])
@@ -34,7 +37,7 @@ class PressesController < ApplicationController
       render :action => 'edit'
     end
   end
-  
+
   def destroy
     @press = Press.find(params[:id])
     @press.destroy
@@ -42,3 +45,4 @@ class PressesController < ApplicationController
     redirect_to presses_url
   end
 end
+

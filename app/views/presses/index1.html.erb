@@ -1,0 +1,128 @@
+<% title "Presses" %>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Location</th>
+    <th>Date Of Event</th>
+    <th>Emphasis</th>
+    <th>Author</th>
+    <th>Information</th>
+  </tr>
+
+  <% for press in @presses %>
+    <tr>
+      <td><%=h press.title %></td>
+      <td><%=h press.location %></td>
+      <td><%=h press.date_of_event %></td>
+      <td><%=h press.emphasis %></td>
+      <td><%=h press.author %></td>
+      <td><%=h press.information %></td>
+      <td><%= link_to "Show", press %></td>
+      <td><%= link_to "Edit", edit_press_path(press) %></td>
+      <td><%= link_to "Destroy", press, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Press", new_press_path %></p>
+
+
+
+    <div id="content_blog_holder">
+
+      <div class="content_blog_gap">
+      <!-- end .content_blog_gap --></div>
+
+      <div class="content_blog">
+
+        <div class="inside_content_blog">
+
+          <span class="gap_b4_blog_frame">
+          <!-- end .gap_b4_blog_frame --></span>
+
+          <span class="blog_frame">
+
+            <div class="top_space_blog_frame">
+            <!-- end .top_space_blog_frame --></div>
+
+            <div class="space_blog_frame">
+            <!-- end .space_blog_frame --></div>
+
+          <!-- end .blog_frame --></span>
+
+          <span class="blog_information">
+          <!-- end .blog_information --></span>
+
+        <!-- end .inside_content_blog --></div>
+
+      <!-- end .content_blog --></div>
+
+      <div class="content_blog_gap">
+      <!-- end .content_blog_gap --></div>
+
+      <div class="content_blog">
+
+        <div class="inside_content_blog">
+
+          <span class="gap_b4_blog_frame">
+          <!-- end .gap_b4_blog_frame --></span>
+
+          <span class="blog_frame">
+
+            <div class="top_space_blog_frame">
+            <!-- end .top_space_blog_frame --></div>
+
+            <div class="space_blog_frame">
+            <!-- end .space_blog_frame --></div>
+
+          <!-- end .blog_frame --></span>
+
+          <span class="blog_information">
+          <!-- end .blog_information --></span>
+
+        <!-- end .inside_content_blog --></div>
+
+      <!-- end .content_blog --></div>
+
+      <div class="content_blog_gap">
+      <!-- end .content_blog_gap --></div>
+
+      <div class="content_blog">
+
+        <div class="inside_content_blog">
+
+          <span class="gap_b4_blog_frame">
+          <!-- end .gap_b4_blog_frame --></span>
+
+          <span class="blog_frame">
+
+            <div class="top_space_blog_frame">
+            <!-- end .top_space_blog_frame --></div>
+
+            <div class="space_blog_frame">
+            <!-- end .space_blog_frame --></div>
+
+          <!-- end .blog_frame --></span>
+
+          <span class="blog_information">
+          <!-- end .blog_information --></span>
+
+        <!-- end .inside_content_blog --></div>
+
+      <!-- end .content_blog --></div>
+
+      <div class="content_blog_gap">
+      <!-- end .content_blog_gap --></div>
+
+      <div class="content_blog_gap">
+      <!-- end .content_blog_gap --></div>
+
+      <div class="content_blog_gap">
+      <!-- end .content_blog_gap --></div>
+
+      <div id="blog_navigation">
+      <!-- end #blog_navigation --></div>
+
+    <!-- end #content_blog_holder --></div>
+

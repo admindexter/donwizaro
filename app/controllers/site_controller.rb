@@ -1,5 +1,7 @@
 class SiteController < ApplicationController
   def index
+    @title = "Welcome to the abode of Don Wizaro"
+
     render :layout => 'home'
   end
 
